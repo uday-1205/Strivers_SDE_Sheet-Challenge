@@ -9,8 +9,7 @@ void insert(string &w,TierNode* node){
     for(auto c: w){
         if(curr->child[c-'a'] == NULL)curr->child[c-'a'] = new TierNode();
         curr = curr->child[c-'a'];
-    }
-    curr->isEnd = true;
+    }    curr->isEnd = true;
 }
 
 bool isCompStr(string &w,TierNode* node){

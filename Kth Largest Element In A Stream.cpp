@@ -19,7 +19,6 @@ public:
         if(pq.size() > K)
             pq.pop();
     }
-
     int getKthLargest() {
        // Write your code here.
         return pq.top();

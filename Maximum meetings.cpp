@@ -27,11 +27,8 @@ vector<int> maximumMeetings(vector<int> &start, vector<int> &finish) {
         res.push_back(val.second.first);
 
         e = val.first+1;
-
     }
-
   }
-
   return res;
 
 }

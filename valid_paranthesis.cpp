@@ -16,9 +16,7 @@ bool isValidParenthesis(string s)
             }
             else{
                 return false;
-            }
-        
-                   
+            }            
         }
         }
         if(st.empty()){

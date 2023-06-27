@@ -27,5 +27,4 @@ int zAlgorithm(string s, string p, int n, int m)
         }
 
     return count;
-
 }

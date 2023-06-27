@@ -59,6 +59,5 @@ vector<string> wordBreak(string &s, vector<string> &words)
     f(0,t,s,mp,ans);
 
     return ans; 
-
 }
 
